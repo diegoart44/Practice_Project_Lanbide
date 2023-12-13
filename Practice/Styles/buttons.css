@@ -1,0 +1,19 @@
+.btn { /* this is "btn" and not "button" because the class is set to "btn" */
+    background-color: #f4837d;
+    color: black;
+    font-size: 1.5em;
+    padding: 10px 25px;
+    border: 3px solid black;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.btn:active { /* This is for when you click on it, you will see a shadow */
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.center-button-wrapper {
+    display: flex;
+    justify-content: center;
+}

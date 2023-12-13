@@ -1,0 +1,129 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Common nav Styles */
+.navigation-wrapper {
+    height: 100px;
+    background-color: #75cabc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    border: 100px;
+    border-bottom: 5px solid black;
+}
+
+.navigation-wrapper > .center-column { 
+    /* This is to make up for the skew caused by the size of the right column in the navigation-wrapper  */
+    padding-left: 50px;
+}
+
+/* Styles */
+.navigation-wrapper > .left-column,
+.navigation-wrapper > .right-column,
+.navigation-wrapper > .center-column {
+    display: flex;
+    align-items: center;
+}
+
+/* ICONS */
+.navigation-wrapper > .left-column > .icon,
+.navigation-wrapper > .right-column > .contact-icon a {
+    margin: 0 20px;
+    color: black; /* Default color */
+    font-size: 4em;
+    transition: color 0.1s;
+}
+
+/* Contact Hours Wrapper */
+.left-column > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.left-column > .contact-hours-wrapper .phone {
+    font-size: 1.5em;
+}
+
+.left-column > .contact-hours-wrapper .days,
+.left-column > .contact-hours-wrapper .hours {
+    font-size: 1em;
+}
+
+/* Address Wrapper */
+.right-column .address-wrapper {
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    color: black;
+}
+
+.navigation-wrapper > .center-column {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 700px;
+}
+
+/* Images */
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 100%;
+    height: auto;
+    align-self: flex-start;
+}
+
+.navigation-wrapper > .center-column .nav-link a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Links Wrapper */
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Decorations */
+.center-column > .nav-link a,
+.right-column > .address-wrapper a,
+.left-column > .contact-hours-wrapper a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Hover */
+.links-wrapper > .nav-link a:hover,
+.right-column > .address-wrapper a:hover,
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #f4837d;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.links-wrapper > .nav-link {
+    width: 100px;
+    text-align: right;
+}
+
+.right-column > .address-wrapper {
+    width: 210px;
+    text-align: center;
+
+}

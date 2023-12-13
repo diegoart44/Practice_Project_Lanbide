@@ -1,0 +1,34 @@
+
+.page-container, .spacer60 {
+    background-color: #75cabc;
+}
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;  
+    /* This means the first column will take up 1 part of the available space, and the second column will take up 3 parts. 
+    The columns are determined by the two sections of the contact-grid-wrapper*/
+    
+    grid-gap: 225px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: Quicksand;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #f4837d;
+}

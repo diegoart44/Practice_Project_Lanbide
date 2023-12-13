@@ -1,0 +1,33 @@
+/* Helpers - This is to space  between elements and not have to worry about margin-bottom*/
+.spacer60 {
+    height: 60px;
+    width: 100%;
+}
+
+.spacer30 {
+    height: 30px;
+    width: 100%;
+}
+
+.spacer15 {
+    height: 15px;
+    width: 100%;
+}
+
+
+/* These anchor links are being used in MENU, specifically the squares shown. */
+.anchor-link {
+    text-decoration: none;    
+}
+
+.anchor-link:focus {
+    outline: none;    
+}
+
+.anchor-link h1::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f35d";
+    font-weight: 900; 
+    margin-left: 0.5em;  /* This will add a space between your icon and your text  */
+}
+

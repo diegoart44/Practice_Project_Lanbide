@@ -1,0 +1,73 @@
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+
+}
+
+.skewed-header > .header-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    background-attachment: ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    /* transform: skewY(-6deg); */
+    /* transform-origin: top left; */
+    /* filter: brightness(0%); */
+    /* clip-path: polygon(100% 0, 100% 20%, 0 100%, 0 0); */
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 150vw;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+    width: 150px;
+}
+
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: black;
+    background-color: #75cabc;
+    border-radius: 5px;
+    /* 6 hours later... If you want the links to be black and not the stock purple/blue, this is the code!!!! */
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a:hover {
+    color: #f4837d;
+    letter-spacing: 2px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: #75cabc;
+    color:  #f4837d;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}

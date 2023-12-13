@@ -1,0 +1,63 @@
+/* -=-=-=-=-=-=-=-= Squares =-=-=-=-=-=-=-=- */
+.squares-wrapper {
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.squares-wrapper > .squares {
+    width: 1200px; 
+
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* this means that there are 2 equally sized columns  */
+    margin-top: -4px;
+}
+
+.square img {
+    width: 100%;
+    margin: auto; 
+    display: block; 
+    border-radius: 20px;
+    
+}
+
+/* #square1 {clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+#square2 {clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);}
+#square3 {clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+#square4 {clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 75%, 25% 100%, 25% 75%, 0% 75%);} */
+
+.square-text-wrapper {
+    padding: 30px 30px;
+    background-color: #75cabc;
+    color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.square-text-wrapper h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: black;
+    background-color: #f4837d;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#square1, #square2, #square3, #square4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}  
+
+.square-text-wrapper ul {
+    font-size: 1.2em;
+    line-height: 50px;
+    justify-content: center;
+}

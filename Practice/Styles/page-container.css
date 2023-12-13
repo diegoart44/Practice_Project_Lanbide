@@ -1,0 +1,33 @@
+/* -=-=-=-=-=-=-=-= Floating picture =-=-=-=-=-=-=-=- */
+
+
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.page-container > .content-wrapper {
+    width: 1100px;
+    background-color: #75cabc;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 20px 20px;
+    border-radius: 20px;
+    line-height: 30px;
+}
+
+/* .page-container > .content-wrapper p {
+    display: flex;
+    justify-content: center;
+} */
+
+.page-container > .content-wrapper > #lighthouse {
+    width: 450px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: right;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+

@@ -1,0 +1,75 @@
+/* Footer Styles */
+.footer {
+    background-color: #75cabc;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 500px;
+    margin-top: -4px;
+    border-top: 5px solid black;
+    /* box-shadow: inset 0px 26px 79px -8px rgba(0, 0, 0, 0.58); */
+   
+}
+
+/* Links in Footer */
+.footer > .links-wrapper a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Logo in Footer */
+.footer > .logo-footer img {
+    width: 800px;
+    height: auto;
+    padding: 20px;
+    filter: opacity(0.8);
+}
+
+/* Phone, Hours, and Days in Footer */
+.footer > .footer-phone-hours-days {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer > .footer-phone-hours-days > .phone,
+.footer > .footer-phone-hours-days > .hours,
+.footer > .footer-phone-hours-days > .days {
+    margin-left: 50px;
+    margin-right: 50px; 
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Social Media Icons in Footer */
+.footer > .social-media-icons-wrapper {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 2em;
+    color: black;
+    transition: 0.1s;
+}
+
+.footer > .social-media-icons-wrapper a:hover {
+    color: #f4837d;
+}
+
+/* Copyright in Footer */
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}

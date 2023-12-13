@@ -1,0 +1,195 @@
+/* Home Page  */
+@media (max-width: 615px) {
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-right: 50px;
+    }
+
+    .navigation-wrapper {
+        padding: 20px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+        padding-left: 0px;
+        /* this was put in order to compensate for the skew i added in nav.css  */
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 10px;
+        padding-right: 50px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 50px 10px;
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /* Footer  */
+    .footer {
+        height: 100%;
+        padding-top: 15px;
+    }
+
+    .footer > .logo-footer img {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.9);
+        padding-left: 0px;
+    }
+
+    .footer > .footer-phone-hours-days > .phone, .footer > .footer-phone-hours-days > .hours, .footer > .footer-phone-hours-days > .days {
+        margin-left: 25px;
+        margin-right: 26px;
+        font-size: .9em;
+        letter-spacing: 1px;
+
+
+    }
+}
+
+
+/* About Page */
+    @media (max-width: 615px) {
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content {
+        flex-direction: column;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+        order: 2;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+        order: 2;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+        order: 1;
+    }
+
+    .skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    .skewed-header > .header-background {
+    background-size: 615px; 
+    /* I changed this setting compared to the instructions because the picture didnt 
+    follow the skewed header instuctions. I wanted to show the entire picture, until i 
+    learn how i could adjust the picture better on the screen.  */
+    }
+
+    .skewed-header > .page-container {
+        padding-left: 21px;
+        padding-right: 21px;
+    }
+
+    .content-wrapper > #lighthouse {
+        margin: 0px 0px 25px 0px !important;
+        width: 100% !important;
+        /* i noticed that i didnt need to do anything here converse to the instructions of the video  */
+    }
+}
+
+
+
+/* Grids  */
+@media (max-width: 615px) {
+    .square {
+        grid-template-columns: 1fr !important;
+        /* Using the "!important" code, this will override any other setting previously set. This should only be used in an emergency because you should have coded and organized correclty. */
+    }
+
+    .square img  {
+        border-radius: 95px !important;
+        margin-top: 0px !important;
+    }
+
+    .square > .square-text-wrapper {
+        order: 1;
+        border-radius: 95px !important;
+        margin-bottom: 50px !important;
+    }
+
+    /* #square1, #square2, #square3, #square4 {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    } */
+
+    .squares-wrapper > .squares > .square {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+    }
+
+    #square1, #square2, #square3, #square4 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    }  
+
+    .square-text-wrapper {
+        margin-top: 0px;
+    }
+}
+
+/* Contact  */
+@media (max-width: 615px) {
+    .page-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    }
+
+    .form input, .form textarea {
+        padding: 1em .5em;
+        font-size: 1rem;
+    }
+
+    .contact-grid-wrapper {
+        grid-gap: 25px;
+        width: 100%;
+    }
+
+    .company-metadata-sidebar-wrapper > .company-details-wrapper {
+        font-size: .8em;
+    }
+
+    .form-container {
+        width: 80%;
+    }
+
+    .page-container > .contact-grid-wrapper > .company-metadata-sidebar-wrapper {
+        padding-left: 15px;
+    }
+}
